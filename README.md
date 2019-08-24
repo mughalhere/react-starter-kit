@@ -10,6 +10,7 @@ npm i
 npm start
 </pre>
 The open http://localhost:3000/ to see your app<br />
+<img src="../Home.jpg" />
 When you’re ready to deploy to production, create a minified bundle with <code>npm run build</code>
 <h2><b>Get Started Immediately</b></h2>
 You don’t need to install or configure tools like Webpack or Babel.
