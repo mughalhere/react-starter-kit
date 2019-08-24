@@ -9,7 +9,7 @@ cd react-kit
 npm i
 npm start
 </pre>
-The open http://localhost:3000/ to see your app<br />
+The open http://localhost:8080/ to see your app<br />
 <img src="https://github.com/mughalhere/react-kit/blob/master/src/Home.jpg" />
 When you’re ready to deploy to production, create a minified bundle with <code>npm run build</code>
 <h2><b>Get Started Immediately</b></h2>

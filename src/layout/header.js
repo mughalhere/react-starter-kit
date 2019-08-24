@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
              <div>
-                 I am Header
+                 Hi, I am Header :)
              </div>
         );
     }

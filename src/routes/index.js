@@ -17,7 +17,7 @@ const renderRoutes = () => {
             )}
           />
           <Route
-            path="/test"
+            path="/withheader"
             render={props => (
               <AppRoute Layout={HomeContainer} Component={Home} props={props} />
             )}

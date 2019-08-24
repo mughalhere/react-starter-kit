@@ -1,21 +1,20 @@
 {
-  "name": "frontend",
+  "name": "react-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boiler plate code to get things started and managing easily",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --hot --progress --inline"
+    "start": "webpack-dev-server --mode development --hot --progress --inline",
+    "build": "webpack --mode production",
+    "production": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Zia",
   "license": "ISC",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "url-loader": "^2.1.0"
-  },
-  "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-transform-runtime": "^7.5.5",
@@ -33,6 +32,8 @@
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2",
-    "@hot-loader/react-dom": "^16.8.6"
-  }
+    "@hot-loader/react-dom": "^16.8.6",
+    "url-loader": "^2.1.0"
+  },
+  "devDependencies": {}
 }
