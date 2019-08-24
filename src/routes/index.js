@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Dashboard from "../components/Dashboard";
-import HomeContainer from '../containers/container';
+import Home from "../components/Home";
+import HomeContainer from '../containers/Container';
 
 const renderRoutes = () => {
   return (
@@ -13,13 +13,13 @@ const renderRoutes = () => {
             exact
             path="/"
             render={props => (
-              <AppRoute Component={Dashboard} props={props} />
+              <AppRoute Component={Home} props={props} />
             )}
           />
           <Route
             path="/test"
             render={props => (
-              <AppRoute Layout={HomeContainer} Component={Dashboard} props={props} />
+              <AppRoute Layout={HomeContainer} Component={Home} props={props} />
             )}
           />
         </Switch>
