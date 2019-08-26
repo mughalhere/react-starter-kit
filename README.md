@@ -1,4 +1,4 @@
-# react-kit
+# react-starter-kit
 
 Boilerplate code with react-router, webpack and babel <br />
 If something doesn’t work, please file an issue.<br />
@@ -7,12 +7,12 @@ If you have questions or need help, email me at mughalheree@gmail.com.<br />
 <h2><b>Quick Overview</b></h2>
 <pre>
 git clone https://github.com/mughalhere/react-starter-kit
-cd react-kit
+cd react-starter-kit
 npm i
 npm start
 </pre>
 The open http://localhost:8080/ to see your app<br />
-<img style="-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;user-select: none;-moz-user-drag: none;-khtml-user-drag: none;-webkit-user-drag: none user-drag: none;" src="https://github.com/mughalhere/react-kit/blob/master/src/images/Home.jpg" />
+<img src="https://github.com/mughalhere/react-kit/blob/master/src/images/Home.jpg" />
 When you’re ready to deploy to production, create a minified bundle with <code>npm run build</code>
 <h2><b>Get Started Immediately</b></h2>
 You don’t need to install or configure tools like Webpack or Babel.
@@ -58,7 +58,7 @@ react-kit
 </pre>
 No configuration or complicated folder structures, just the files you need to build your app. <br />
 Once the installation is done, you can open your project folder: <br />
-<pre>cd react-kit</pre>
+<pre>cd react-starter-kit</pre>
 Runs the app in development mode. <br />
 Open http://localhost:8080 to view it in the browser. <br />
 The page will automatically reload if you make changes to the code. <br />
