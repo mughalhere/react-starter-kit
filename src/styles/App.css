@@ -3,7 +3,7 @@ body,h1 {
 }
 
 html { 
-    background: url("../logo.png") no-repeat right 20% center fixed; 
+    background: url("../images/logo.png") no-repeat right 20% center fixed; 
     -webkit-background-size: auto 40%;
     -moz-background-size: auto 40%;
     -o-background-size: auto 40%;

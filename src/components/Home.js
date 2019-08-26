@@ -26,7 +26,7 @@ class Dashboard extends Component {
             <br />
             <a
               className="button"
-              href="https://github.com/mughalhere/react-kit"
+              href="https://github.com/mughalhere/react-starter-kit"
             >
               Documentation
             </a>

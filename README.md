@@ -1,16 +1,18 @@
 # react-kit
+
 Boilerplate code with react-router, webpack and babel <br />
 If something doesn’t work, please file an issue.<br />
 If you have questions or need help, email me at mughalheree@gmail.com.<br />
+
 <h2><b>Quick Overview</b></h2>
 <pre>
-git clone https://github.com/mughalhere/react-kit/
+git clone https://github.com/mughalhere/react-starter-kit
 cd react-kit
 npm i
 npm start
 </pre>
 The open http://localhost:8080/ to see your app<br />
-<img src="https://github.com/mughalhere/react-kit/blob/master/src/Home.jpg" />
+<img style="-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;user-select: none;-moz-user-drag: none;-khtml-user-drag: none;-webkit-user-drag: none user-drag: none;" src="https://github.com/mughalhere/react-kit/blob/master/src/images/Home.jpg" />
 When you’re ready to deploy to production, create a minified bundle with <code>npm run build</code>
 <h2><b>Get Started Immediately</b></h2>
 You don’t need to install or configure tools like Webpack or Babel.
@@ -45,11 +47,13 @@ react-kit
             └── index.js
     ├── styles
             └── App.css
+    ├── images
+            ├── logo.png
+            └── Home.jpg
     ├── App.js
     ├── index.js
-    ├── logo.png
-    ├── index.html
-    └── Home.jpg
+    └── index.html
+     
 </code>
 </pre>
 No configuration or complicated folder structures, just the files you need to build your app. <br />
@@ -61,6 +65,7 @@ The page will automatically reload if you make changes to the code. <br />
 You will see the build errors and lint warnings in the console. <br />
 
 <pre>npm run build</pre>
+
 Builds the app for production to the <code>build</code> folder.
 It correctly bundles React in production mode and optimizes the build for the best performance. <br />
 The build is minified and the filenames include the hashes. <br />
