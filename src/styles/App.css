@@ -1,23 +1,24 @@
-body,h1 {
+body,
+h1 {
   font-family: "Raleway", sans-serif;
 }
 
-html { 
-    background: url("../images/logo.png") no-repeat right 20% center fixed; 
-    -webkit-background-size: auto 40%;
-    -moz-background-size: auto 40%;
-    -o-background-size: auto 40%;
-    background-size: auto 40%;
-    background-color: #222222;
-  }
+html {
+  background: url("../images/logo.png") no-repeat right 20% center fixed;
+  -webkit-background-size: auto 40%;
+  -moz-background-size: auto 40%;
+  -o-background-size: auto 40%;
+  background-size: auto 40%;
+  background-color: #222222;
+}
 
 .tooltip,
 .display-container {
   position: relative;
 }
 
-.center{
-    text-align: center !important;
+.center {
+  text-align: center !important;
 }
 
 .display-container:hover .display-hover {
@@ -78,34 +79,34 @@ html {
   bottom: 0;
 }
 
-a:link{
-    color: white;
+a:link {
+  color: white;
 }
-a:visited{
-    color: white;
+a:visited {
+  color: white;
 }
-a:hover{
-    color: white;
+a:hover {
+  color: white;
 }
-a:active{
-    color: white;
+a:active {
+  color: white;
 }
 
 .button {
-    border: 1px solid white;
-    border-radius: 3px;
-    color: #20232a;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.2em;
-    padding: 10px;
-    text-decoration: none!important;
-    text-transform: uppercase;
-    transition: background .3s,color .3s;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: #20232a;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding: 10px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: background 0.3s, color 0.3s;
 }
 .button:hover {
-    color: #20232a;
-    background-color: white;
-    text-decoration: none;
+  color: #20232a;
+  background-color: white;
+  text-decoration: none;
 }

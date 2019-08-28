@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import "../styles/App.css";
 
-const styles = {
-  root: {
-    height: 768
-  }
-};
-
 class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +28,7 @@ class Dashboard extends Component {
         </div>
         <div className="display-bottomleft padding-large">
           Powered by{" "}
-          <a href="https://github.com/mughalhere" target="_blank">
+          <a href="https://github.com/mughalhere">
             mughalhere
           </a>
         </div>
