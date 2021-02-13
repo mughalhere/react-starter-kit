@@ -1,15 +1,21 @@
+body {
+  margin: 0px;
+  background-color: #222222;
+}
+
 body,
 h1 {
   font-family: "Raleway", sans-serif;
 }
 
-html {
+.home-main-container {
+  height: 100vh;
+  width: 100vw;
   background: url("../images/logo.png") no-repeat right 20% center fixed;
   -webkit-background-size: auto 40%;
   -moz-background-size: auto 40%;
   -o-background-size: auto 40%;
   background-size: auto 40%;
-  background-color: #222222;
 }
 
 .tooltip,
@@ -58,6 +64,7 @@ html {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 .jumbo {
   font-size: 64px !important;
 }
@@ -105,8 +112,14 @@ a:active {
   text-transform: uppercase;
   transition: background 0.3s, color 0.3s;
 }
+
 .button:hover {
   color: #20232a;
   background-color: white;
   text-decoration: none;
+}
+
+.horizontal-line {
+  margin: auto;
+  width: 40%;
 }

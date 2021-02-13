@@ -1,0 +1,12 @@
+#Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 50px;
+}
+
+#Header a {
+  color: black !important;
+  margin: 0px 1em;
+}

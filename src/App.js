@@ -1,19 +1,12 @@
-import React from 'react';
-import { hot } from 'react-hot-loader';
-import RenderRoutes from './routes';
+import React from 'react'
+import { hot } from 'react-hot-loader'
+import RenderRoutes from './routes'
 
-class App extends React.Component {
-    constructor (props) {
-        super(props);
-    }
-
-    render () {
-        return (
-            <div>
-                <RenderRoutes/>
-            </div>
-        );
-    }
+const App = () => {
+  return (
+    <RenderRoutes />
+  )
 }
 
-export default hot(module)(App);
+const mode = process.env.NODE_ENV
+export default mode === 'development' ? hot(module)(App) : App

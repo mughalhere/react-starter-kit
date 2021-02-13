@@ -1,16 +1,17 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-  entry: "./src/index.js",
-  devtool: "inline-source-map",
+  entry: './src/index.js',
+  devtool: 'inline-source-map',
   output: {
-    path: __dirname + "/build",
-    publicPath: "/",
-    filename: "bundle.js"
+    path: path.join(__dirname, '/build'),
+    publicPath: '/',
+    filename: 'bundle.js'
   },
   devServer: {
-    contentBase: "./build",
+    contentBase: './build',
     hot: true,
+    open: true,
     historyApiFallback: true
   },
   module: {
@@ -18,26 +19,26 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ["babel-loader"]
+        use: ['babel-loader']
       },
       {
         test: /\.less$/,
-        use: ["style-loader", "css-loader", "less-loader"]
+        use: ['style-loader', 'css-loader', 'less-loader']
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader", "less-loader"]
+        use: ['style-loader', 'css-loader', 'less-loader']
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/,
-        loader: "url-loader"
+        loader: 'url-loader'
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin({ template: path.resolve("./index.html") })],
+  plugins: [new HtmlWebpackPlugin({ template: path.resolve('./index.html') })],
   resolve: {
     alias: {
-      "react-dom": "@hot-loader/react-dom"
+      'react-dom': '@hot-loader/react-dom'
     }
   }
-};
+}

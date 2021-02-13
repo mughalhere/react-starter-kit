@@ -4,12 +4,14 @@
   "description": "Boiler plate code to get things started and managing easily",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --hot --progress --inline",
+    "start": "node server.js",
+    "start:dev": "webpack-dev-server --mode development --hot --progress --inline",
     "build": "webpack --mode production",
-    "production": "node server.js"
+    "standard": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "pre-commit": "standard",
   "author": "Muhammad Zia",
   "license": "MIT",
   "repository": {
@@ -19,25 +21,28 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.5.5",
+    "@hot-loader/react-dom": "^16.8.6",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
+    "pre-commit": "^1.2.2",
     "react-hot-loader": "^4.12.10",
-    "react-router-dom": "^5.0.1",
+    "standard": "^16.0.3",
     "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2",
-    "@hot-loader/react-dom": "^16.8.6",
-    "url-loader": "^2.1.0"
-  },
-  "devDependencies": {}
+    "webpack-dev-server": "^3.7.2"
+  }
 }
